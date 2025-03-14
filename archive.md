@@ -1,6 +1,5 @@
 ---
 layout: null
-title : Atom Feed
 ---
 
 # Easy Docs

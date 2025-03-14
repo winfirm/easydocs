@@ -1,7 +1,7 @@
 # Easy Docs
 
-## List
-[Hello World](#!_posts/hello world.md)  
+## Docs page
+[Docs ](#!archive.md)  
 
 ## Help
 

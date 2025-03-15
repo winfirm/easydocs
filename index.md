@@ -19,4 +19,4 @@ permalink: /index.md
 
 ## Appendix
 
-EasyDocs build by [Mdwiki-pro](https://github.com/winfirm/mdwiki-pro)
+- EasyDocs powered by [Mdwiki-pro](https://github.com/winfirm/mdwiki-pro)

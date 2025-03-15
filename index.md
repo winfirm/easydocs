@@ -15,7 +15,7 @@ permalink: /index.md
 {% endunless %} 
 {% endfor %}
 
-[All documents>>](./#!archive.md)
+[All documents &rarr;](./#!archive.md)
 
 ### Appendix
 

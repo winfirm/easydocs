@@ -9,7 +9,7 @@ permalink: /index.md
 
 {% for file in site.static_files %}
 {% if file.path contains 'docs/' and file.extname == '.md' %}
-- [{{ file.name }}({{ file.modified_time | date:"%Y-%m-%d" }})](./#!docs/{{ file.name | uri_escape}}.md)
+- [{{ file.name | replace: '.md', '' }}({{ file.modified_time | date:"%Y-%m-%d" }})](./#!docs/{{ file.name | uri_escape}})
 {% endif %}
 {% endfor %}
 

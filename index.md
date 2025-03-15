@@ -1,4 +1,14 @@
+---
+layout: null
+permalink: /index.md
+---
+
 # Easy Docs
+
+### Doc List
+ {% for post in site.posts %}
+ 	[{{ post.date | date_to_xmlschema }} {{ post.title }}](#!_content/{{ post.title }}.md)
+ {% endfor %}
 
 ### Features
 

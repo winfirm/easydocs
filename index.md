@@ -5,7 +5,7 @@ permalink: /index.md
 
 # Easy Docs
 
-### Docs List
+## Docs List
 
 {% for file in site.static_files limit:20 %}
 {% unless post.next %} 
@@ -17,6 +17,6 @@ permalink: /index.md
 
 [All documents &rarr;](./#!archive.md)
 
-### Appendix
+## Appendix
 
 EasyDocs build by [Mdwiki-pro](https://github.com/winfirm/mdwiki-pro)

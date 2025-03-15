@@ -7,8 +7,10 @@ permalink: /index.md
 
 ### Doc List
 
-{% for post in site.posts %}
-[{{ post.date | date_to_xmlschema }} {{ post.title }}](./#!_content/{{ post.title | uri_escape}}.md)
+{% for file in site.static_files %}
+{% if file.path contains 'docs/' and file.extname == '.md' %}
+- [{{ file.name }}({{ file.modified_time | date:"%Y-%m-%d" }})](./#!docs/{{ file.name | uri_escape}}.md)
+{% endif %}
 {% endfor %}
 
 ### Features

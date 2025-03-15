@@ -8,9 +8,9 @@ permalink: /index.md
 ### Doc List
 
 <div>
- {% for post in site.posts %}
- 	[{{ post.date | date_to_xmlschema }} {{ post.title }}](./#!_content/{{ post.title }}.md)
- {% endfor %}
+{% for post in site.posts %}
+[{{ post.date | date_to_xmlschema }} {{ post.title }}](./#!_content/{{ post.title }}.md)
+{% endfor %}
 </div>
 
 ### Features
